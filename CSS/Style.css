@@ -70,8 +70,12 @@ body {
     background-image: url(https://i.pinimg.com/originals/43/10/1e/43101e0f8ce036f57ad751712d6e7d58.jpg);
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 95vh;
     width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-title {
@@ -87,4 +91,40 @@ body {
 
 @media (max-width: 600px) {
     
+}
+ /* . . . */
+
+  /* Menu */
+.feature-background {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-container {
+    background-color: rgb(76, 82, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    height: 90%;
+    width: 90%;
+    position: relative;
+}
+
+.feature-title {
+    position: absolute;
+    top: 0;
+    font-size: 2em
+}
+
+.feature-img {
+    width: 50%;
+    padding: 0em 2em;
+}
+
+.feature-text {
+    padding: 0em 2em;
+    text-align: center;
 }
