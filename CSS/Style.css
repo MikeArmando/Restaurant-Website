@@ -54,7 +54,6 @@ body {
     .navbar-links li a {
         padding: 1em 1.5em;
     }
-
 }
 
 @media (max-width: 400px) {
@@ -105,8 +104,11 @@ body {
 }
 
 @media (max-width: 600px) {
-    
+    .explore-button {
+        margin-left: .1em;
+    }
 }
+
  /* . . . */
 
   /* Menu */
@@ -187,4 +189,3 @@ body {
     margin: .8em;
     font-size: 1.5em;
 }
-
