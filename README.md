@@ -2,6 +2,6 @@
 
 Restaurnat Website Project.
 
-# description
+## description
 
-Building a responsive restaurant website for practice and better understanding.
+Building a responsive restaurant website with html and css.
