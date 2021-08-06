@@ -157,17 +157,29 @@ body {
 
 .feature-text-con {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template: 1fr 2fr 2fr / 1fr 1fr;
     grid-column: 2/-1;
     padding: 0em 2em;
     margin-top: 4em;
     margin-right: 2em;
+    border: 3px solid rgb(34, 67, 94);
+    border-radius: 7%;
+}
+
+.text-title {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: uppercase;
+    font-size: 2rem;
+    height: 80%;
 }
 
 .text {
     text-align: center;
     grid-column: 1/-1;
-    margin-top: 9em;
+    margin-top: 0em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,21 +187,27 @@ body {
 
 .feature-button {
     background-color: white;
-    grid-row: 2/2;
     grid-column: 1/-1;
     margin-left: 14em;
     height: 25%;
     width: 30%;
     text-decoration: none;
-    border: 1px solid black;
+    border: 2px solid rgb(34, 67, 94);
+    transition: all 300ms ease;
+}
+
+.feature-button:hover {
+    background-color: rgb(193, 232, 255);
 }
 
 .text-button {
     display: flex;
     justify-content: center;
+    align-items: ;
     color: black;
-    margin: .8em;
+    margin-top: .5em;
     font-size: 1.5em;
+    color: rgb(34, 67, 94);
 }
 
 @media (max-width: 1600px) {
@@ -360,38 +378,70 @@ body {
 }
 
 @media (max-width: 400px) {
+
+    .feature-container {
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr;
+        margin: 2em;
+        height: 90%;
+        width: 90%;
+    }
+
     .feature-img {
         grid-column: 1/-1;
         grid-row: 2/2;
-        width: 70%;
-        margin-left: 1em;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 3em;
     }
+
+    .feature-img:hover {
+        width: 100%;
+    }
+
     .feature-text-con {
-        grid-template: 1fr 1fr / 1fr 1fr;
-        grid-column: 1/-1;
-        padding: 0em 2em;
-        margin-top: 3em;
-        margin-right: 2em;
+        grid-template: 1fr 2fr 2fr / 1fr 1fr;
+        padding: 0em 0em;
+        margin-top: 1.5em;
+        margin-right: 0em;
+        margin-left: 0em;
+        border-radius: 5%;
+        width: 100%;
     }
+
+    .text-title {
+        grid-column: 1/-1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-transform: uppercase;
+        font-size: 2rem;
+        height: 80%;
+    }
+
     .text {
         grid-column: 1/-1;
-        margin-top: 0em;
+        margin-top: 1em;
     }
+
     .feature-button {
-        grid-row: 2/2;
         grid-column: 1/-1;
-        margin-left: 3em;
-        height: 30%;
-        width: 40%;
+        grid-row: 3/3;
+        margin-left: 5em;
+        height: 20%;
+        width: 50%;
     }
     .text-button {
-        margin-top: 1.6em;
-        font-size: .6em;
+        margin-top: .4em;
+        font-size: 1.3em;
     }
 }
 
 /* . . . */
+
+/* About */
 
 /* Menu */
 
