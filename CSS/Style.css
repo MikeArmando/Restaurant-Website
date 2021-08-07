@@ -102,7 +102,7 @@ body {
 }
 
 .explore-button:hover {
-    color: rgb(255, 183, 89);
+    color: rgb(255, 198, 124);
 }
 
 .explore-link {
@@ -386,7 +386,7 @@ body {
 
 .footer {
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     height: 20vh;
 }
 
@@ -400,7 +400,11 @@ body {
 }
 
 .github-img {
+    width: 2.5%;
+    margin: .5em;
+}
+
+.ig-img {
     width: 3%;
-    margin-left: 1em;
-    margin-top: 1em;
+    margin: .2em;
 }
