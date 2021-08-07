@@ -117,7 +117,7 @@ body {
 
 /* . . . */
 
-/* feature section */
+/* feature */
 
 .feature-background {
     background-color: rgb(255, 255, 255);
@@ -271,7 +271,7 @@ body {
 
 /* . . . */
 
-/* Feature2 */
+/* Feature 2 */
 
 .feature-background2 {
     background-color: rgb(255, 255, 255);
@@ -362,9 +362,9 @@ body {
 
 /* . . . */
 
-/* section3 */
+/* section */
 
-.section3-background {
+.section-background {
     background-image: url(/img/cooking-fish-promo.jpg);
     height: 70vh;
     background-position: center;
@@ -408,3 +408,5 @@ body {
     width: 3%;
     margin: .2em;
 }
+
+/* . . . */
