@@ -102,7 +102,7 @@ body {
 
 .explore-button:hover {
     background-color: white;
-    color: rgb(34, 67, 94);
+    color: rgb(0, 0, 0);
 }
 
 .explore-link {
@@ -211,6 +211,7 @@ body {
 .feature-button-link {
     color: rgb(34, 67, 94);
     text-decoration: none;
+    width: 0;
 }
 
 @media (max-width: 400px) {
@@ -305,7 +306,7 @@ body {
 .feature-button2-link {
     color: rgb(34, 67, 94);
     text-decoration: none;
-    
+    width: 0;
 }
 
 /* . . . */
@@ -368,7 +369,6 @@ body {
     color: rgb(34, 67, 94);
     font-size: 1.4em;
     text-decoration: none;
-
 }
 
 /* . . . */
@@ -428,9 +428,8 @@ body {
     transform: rotate(-20deg);
 }
 
-
 .ig-link {
-
+ 
 }
 
 /* . . . */
