@@ -6,7 +6,7 @@ body {
 
 /* Navbar */
 
-.navbar {
+#navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,6 +214,50 @@ body {
     width: 0;
 }
 
+@media (max-width: 900px) {
+    .feature-background {
+        background-color: rgb(255, 255, 255);
+        height: 140vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-img {
+        grid-column: 1/-1;
+        grid-row: 2/2;
+        width: 55%;
+        margin-left: 10em;
+        margin-top: 1em;
+    }
+
+    .feature-img:hover {
+        width: 57%;
+    }    
+
+    .feature-text-con {
+        display: grid;
+        grid-template: 1fr 2fr 2fr / 1fr 1fr;
+        grid-column: 1/-1;
+        padding: 0em 2em;
+        margin-top: 3em;
+        margin-right: 5em;
+        margin-left: 5em;
+    }
+
+    .text-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/-1;
+        margin-left: 7em;
+        height: 2.2em;
+        width: 7.5em;
+        font-size: 1.5em;
+        border: 2px solid rgb(34, 67, 94);
+        transition: all 300ms ease;
+    }
+}
+
 @media (max-width: 400px) {
 
 }
@@ -309,6 +353,53 @@ body {
     width: 0;
 }
 
+@media (max-width: 900px) {
+    .feature-background2 {
+        background-color: rgb(255, 255, 255);
+        height: 130vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-img2 {
+        border: 2px solid black;
+        grid-column: 1/-1;
+        grid-row: 1/1;
+        width: 70%;
+        margin-left: 6.8em;
+        margin-top: 6.5em;
+    }
+
+    .feature-img2:hover {
+        width: 73%;
+    }
+
+    .feature-text-con2 {
+        display: grid;
+        grid-template: 1fr 2fr 2fr / 1fr 1fr;
+        grid-column: 1/-1;
+        padding: 0em 2em;
+        margin-top: 3em;
+        margin-right: 5em;
+        margin-left: 5em;
+        border: 3px solid rgb(34, 67, 94);
+        border-radius: 7%;
+    }
+
+    .text-button2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/-1;
+        margin-left: 7em;
+        height: 2.2em;
+        width: 7.5em;
+        font-size: 1.5em;
+        border: 2px solid rgb(34, 67, 94);
+        transition: all 300ms ease;
+    }
+}
+
 /* . . . */
 
 /* section */
@@ -371,4 +462,95 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 900px) {
+    .section-background {
+        background-image: url(/img/kitech.jpg);
+        height: 70vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-text {
+        text-align: center;
+        margin: 2em 2em;
+    }
+
+    .section-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid rgb(34, 67, 94);
+        height: 8%;
+        width: 17%;
+        margin-left: 40%;
+        transition: all 300ms ease;
+    
+    }
+}
+
+/* . . . */
+
+/* Footer */
+
+.footer {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    background-color: rgb(52, 74, 99);
+    display: grid;
+    grid-template: auto auto / auto auto;
+    height: 80%;
+    width: 95%;
+    margin: 1em;
+}
+
+.title-footer {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.7em;
+    margin-top: 1.5em;
+}
+
+.footer-title-link {
+    text-decoration: none;
+    color: white;
+    margin-left: .4em;
+    height: 0;
+}
+
+.footer-title-link:hover {
+    color: rgba(255, 255, 255, 0.699);
+}
+
+.footer-text {
+    grid-column: 1/-1;
+    margin-bottom: 7em;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footer-text-link {
+    margin-left: .2em;
+    color: white;
+    height: 0;
+}
+
+.footer-text-link:hover {
+    color: rgba(255, 255, 255, 0.699);
+}
 /* . . . */
