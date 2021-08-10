@@ -16,25 +16,25 @@ body {
     width: 100%;
 }
 
-.navbar-links ul {
+ul {
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar-links li {
+ul li {
     list-style: none;
     transition: all 200ms ease;
 }
 
-.navbar-links li a {
+ul li a {
     display: block;
     color: white;
     padding: 1em 5em;
     text-decoration: none;
 }
 
-.navbar-links li:hover {
+ul li:hover {
     background-color: #555;
     text-decoration: underline;
 }
@@ -477,7 +477,6 @@ body {
         display: flex;
         justify-content: center;
     }
-
     .text-button {
         display: flex;
         justify-content: center;
@@ -499,7 +498,6 @@ body {
         display: flex;
         justify-content: center;
     }
-    
     .feature-img {
         width: 55%;
         margin-left: 9em;
@@ -1017,7 +1015,6 @@ body {
         display: flex;
         justify-content: center;
     }
-    
     .text-button2 {
         display: flex;
         justify-content: center;
@@ -1038,8 +1035,7 @@ body {
         height: 130vh;
         display: flex;
         justify-content: center;
-    }    
-
+    }
     .feature-img2 {
         width: 65%;
         margin-left: 7.2em;
@@ -1163,7 +1159,7 @@ body {
         border: 2px solid rgb(34, 67, 94);
         transition: all 300ms ease;
     }
-} 
+}
 
 @media (max-width: 400px) {
     .feature-background2 {
@@ -1593,7 +1589,7 @@ body {
         margin-left: 8em;
         transition: all 300ms ease;
     }
-} 
+}
 
 @media (max-width: 400px) {
     .section-background {
@@ -1617,7 +1613,6 @@ body {
         font-size: 2em;
         margin-top: 2em;
     }
-    
     .section-text {
         text-align: center;
         margin: 2em 2em;
