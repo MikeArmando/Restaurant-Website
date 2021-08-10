@@ -4,7 +4,7 @@ Restaurnat Website Project.
 
 ## Description
 
-This is a project that i built, mainly as a challenge with the purpose of practice and a better understanding of my skils.
+This is my project that i built.
 
 ## Languages and tools used for building this project:
 - HTML
