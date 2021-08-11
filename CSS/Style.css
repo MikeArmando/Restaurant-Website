@@ -2,12 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Navbar */
 
-.navbar {
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -39,7 +39,7 @@ body {
     color: white;
 }
 
-ul {
+.nav-links {
     display: flex;
     margin: 0;
     padding: 0;
@@ -85,8 +85,8 @@ ul li:hover {
 }
 
 @media (max-width: 1050px) {
-    ul {
-        background-color: red;
+    .logo-img {
+        width: 9%;
     }
 }
 
