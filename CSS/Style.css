@@ -116,6 +116,11 @@ ul li:hover {
 }
 
 @media (max-width: 800px) {
+    .logo {
+        display: flex;
+        margin-right: 0em;
+        cursor: default;
+    }
     .nav-links li a {
         padding: 1em 1.5em;
     }
@@ -160,6 +165,11 @@ ul li:hover {
 }
 
 @media (max-width: 400px) {
+    .logo {
+        display: flex;
+        margin-right: 2em;
+        cursor: default;
+    }
     .logo-title {
         display: flex;
         align-items: center;
@@ -178,7 +188,7 @@ ul li:hover {
         display: block;
         color: white;
         padding: 1em 0em;
-        font-size: .6em;
+        font-size: .5em;
         text-decoration: none;
     }
 }
@@ -205,19 +215,19 @@ ul li:hover {
 
 .title {
     color: white;
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 .explore-button {
-    color: white;
-    border: 3px solid white;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 18%;
     width: 28%;
     font-weight: 600;
-    margin-left: 8.5em;
+    margin-left: 9em;
     font-size: 1.1em;
     transition: all 500ms ease;
 }
@@ -1168,7 +1178,7 @@ ul li:hover {
 @media (max-width: 790px) {
     .feature-background2 {
         background-color: rgb(255, 255, 255);
-        height: 120vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
     }
@@ -1601,6 +1611,9 @@ ul li:hover {
 }
 
 @media (max-width: 790px) {
+    .feature-background {
+        height: 100vh;
+    }
     .section-text {
         text-align: center;
         margin: 2em 1em;
@@ -1824,7 +1837,7 @@ ul li:hover {
     display: flex;
     margin: 0em;
     padding: 1em;
-    padding-top: 5em;
+    padding-top: 6em;
     padding-bottom: 0em;
     margin-left: 7.6em;
 }
@@ -1864,4 +1877,102 @@ ul li:hover {
     font-size: .9em;
     font-family: 'Andada Pro', serif;
 }
+
+@media (max-width: 1407px) {
+    .menu-background {
+        height: 210vh;
+    }
+}
+
+@media (max-width: 1130px) {
+    .menu-background {
+        height: 270vh;
+    }
+    .entrees-container {
+        display: grid;
+        grid-template: auto auto auto / auto auto;
+        margin: 2em;
+        margin-bottom: 0;
+        margin-right: 9em;
+        margin-left: 9.1em;
+    }
+    .wholefish-container {
+        display: grid;
+        grid-template: auto auto auto / auto auto;
+        margin: 2em;
+        margin-right: 9em;
+        margin-left: 9.1em;
+    }
+    .deserts-container {
+        display: grid;
+        grid-template: auto auto auto / auto auto;
+        margin: 2em;
+        margin-right: 9em;
+        margin-left: 9.1em;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu-background {
+        height: 200vh;
+    }
+}
+
+@media (max-width: 400px) {
+    hr {
+        border: 1px solid black;
+        margin-right:2em;
+        margin-left: 2em;
+    }
+    .menu-background {
+        height: 340vh;
+    }
+    .entrees-container {
+        display: grid;
+        grid-template: auto auto auto / auto ;
+        margin: 2em;
+        margin-bottom: 0;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+    .title-entrees {
+        display: flex;
+        margin: 0em;
+        padding: 1em;
+        padding-top: 6em;
+        padding-bottom: 0em;
+        margin-left: 7.6em;
+    }
+    .wholefish-container {
+        display: grid;
+        grid-template: auto auto auto / auto;
+        margin: 2em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+    .title-wholefish {
+        display: flex;
+        margin: 0em;
+        padding: 1em;
+        padding-top: 6em;
+        padding-bottom: 0em;
+        margin-left: 6.5em;
+    }
+    .deserts-container {
+        display: grid;
+        grid-template: auto auto auto / auto;
+        margin: 2em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+    .title-deserts {
+        display: flex;
+        margin: 0em;
+        padding: 1em;
+        padding-top: 4em;
+        padding-bottom: 0em;
+        margin-left: 7.2em;
+    }
+}
+
 /* . . . */
