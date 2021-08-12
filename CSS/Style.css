@@ -106,7 +106,7 @@ ul li:hover {
     }
 
     .logo-img {
-        width: 10%;
+        width: 12%;
     }
 }
 
@@ -578,12 +578,13 @@ ul li:hover {
     .feature-img {
         margin-left: 13em;
     }
+
     .text-button {
         display: flex;
         justify-content: center;
         align-items: center;
         grid-column: 1/-1;
-        margin-left: 10.4em;
+        margin-left: 10.3em;
         height: 2.2em;
         width: 7.5em;
         font-size: 1.5em;
@@ -1132,7 +1133,7 @@ ul li:hover {
 
 @media (max-width: 860px) {
     .feature-img2 {
-        margin-left: 11em;
+        margin-left: 10.5em;
     }
     .text-button2 {
         display: flex;
