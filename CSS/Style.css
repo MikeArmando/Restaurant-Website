@@ -86,31 +86,101 @@ ul li:hover {
 
 @media (max-width: 1050px) {
     .logo-img {
-        width: 9%;
+        width: 10%;
+    }
+}
+
+@media (max-width: 950px) {
+    .nav-links li a {
+        padding: 1em 2em;
+    }
+
+    .logo-img {
+        width: 13%;
     }
 }
 
 @media (max-width: 900px) {
+    .nav-links li a {
+        padding: 1em 2em;
+    }
+
+    .logo-img {
+        width: 10%;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-links li a {
+        padding: 1em 1.5em;
+    }
+
+    .logo-img {
+        width: 10%;
+    }
+}
+
+@media (max-width: 750px) {
     .navbar-links li a {
-        padding: 1em 4em;
+        padding: 1em 2em;
+    }
+
+    .logo-img {
+        width: 15%;
     }
 }
 
 @media (max-width: 700px) {
     .navbar-links li a {
-        padding: 1em 2.5em;
+        padding: 1em 0em;
+    }
+
+    .logo-img {
+        width: 15%;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
+    .logo-title {
+        display: flex;
+        align-items: center;
+        font-size: 1.2em;
+        padding: 0;
+        margin: 0;
+        margin-left: 1em;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: white;
+    }
+
     .navbar-links li a {
-        padding: 1em 1.5em;
+        padding: 1em 0em;
     }
 }
 
 @media (max-width: 400px) {
-    .navbar-links li a {
-        padding: 1em 1em;
+    .logo-title {
+        display: flex;
+        align-items: center;
+        font-size: .6em;
+        padding: 0;
+        margin: 0;
+        margin-left: 1em;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: white;
+    }
+
+    .logo-img {
+        width: 20%;
+    }
+
+    ul li a {
+        display: block;
+        color: white;
+        padding: 1em 0em;
+        font-size: .6em;
+        text-decoration: none;
     }
 }
 
