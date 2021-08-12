@@ -1811,7 +1811,6 @@ ul li:hover {
     margin: 0em;
     padding: 1em;
     padding-bottom: 0em;
-
 }
 
 .cocktails-container {
@@ -1820,8 +1819,18 @@ ul li:hover {
     margin: 2em;
 }
 
+.item-container {
+    margin: 1em;
+}
+
 .menu-item {
+    display: flex;
+    justify-content: space-between;
     text-transform: uppercase;
+}
+
+.cost {
+    margin-right: 5em;
 }
 
 .menu-sub-text {
