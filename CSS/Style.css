@@ -622,7 +622,7 @@ ul li:hover {
 @media (max-width: 790px) {
     .feature-background {
         background-color: rgb(255, 255, 255);
-        height: 130vh;
+        height: 90vh;
         display: flex;
         justify-content: center;
     }
@@ -646,6 +646,7 @@ ul li:hover {
         height: 140vh;
         display: flex;
         justify-content: center;
+        
     }
     .feature-img {
         width: 55%;
@@ -775,7 +776,7 @@ ul li:hover {
 @media (max-width: 400px) {
     .feature-background {
         background-color: rgb(255, 255, 255);
-        height: 145vh;
+        height: 150vh;
         display: flex;
         justify-content: center;
     }
@@ -1178,7 +1179,7 @@ ul li:hover {
 @media (max-width: 790px) {
     .feature-background2 {
         background-color: rgb(255, 255, 255);
-        height: 100vh;
+        height: 90vh;
         display: flex;
         justify-content: center;
     }
@@ -1611,9 +1612,6 @@ ul li:hover {
 }
 
 @media (max-width: 790px) {
-    .feature-background {
-        height: 100vh;
-    }
     .section-text {
         text-align: center;
         margin: 2em 1em;
@@ -1715,7 +1713,7 @@ ul li:hover {
 @media (max-width: 560px) {
     .section-background {
         background-image: url(/img/kitech.jpg);
-        height: 95vh;
+        height: 100vh;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
