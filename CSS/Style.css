@@ -281,7 +281,7 @@ ul li:hover {
     grid-column: 1/2;
     grid-row: 2/2;
     width: 65%;
-    margin-left: 7em;
+    margin-left: 6em;
     margin-top: 3em;
     border-radius: 5%;
     cursor: pointer;
