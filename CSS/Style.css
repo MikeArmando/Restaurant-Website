@@ -7,6 +7,8 @@ body {
 
 hr {
     border: 1px solid black;
+    margin-right: 10em;
+    margin-left: 10em;
 }
 
 /* Navbar */
@@ -1789,34 +1791,59 @@ ul li:hover {
 
 .menu-background {
     background-color: rgb(247, 227, 192);
-    height: 150vh;
-}
-
-.title-entrees {
-    display: flex;
-    margin: 0em;
-    padding: 1em;
-    padding-top: 8em;
-    padding-bottom: 0em;
+    height: 180vh;
 }
 
 .entrees-container {
     display: grid;
     grid-template: auto auto auto / auto auto auto;
     margin: 2em;
+    margin-bottom: 0;
+    margin-right: 9em;
+    margin-left: 9.1em;
 }
 
-.title-cocktails {
+.title-entrees {
     display: flex;
     margin: 0em;
     padding: 1em;
+    padding-top: 6em;
     padding-bottom: 0em;
+    margin-left: 7.6em;
 }
 
-.cocktails-container {
+.wholefish-container {
     display: grid;
     grid-template: auto auto auto / auto auto auto;
     margin: 2em;
+    margin-right: 9em;
+    margin-left: 9.1em;
+}
+
+.title-wholefish {
+    display: flex;
+    margin: 0em;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 0em;
+    margin-left: 7.6em;
+}
+
+.deserts-container {
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;
+    margin: 2em;
+    margin-right: 9em;
+    margin-left: 9.1em;
+}
+
+.title-deserts {
+    display: flex;
+    margin: 0em;
+    padding: 1em;
+    padding-top: 4em;
+    padding-bottom: 0em;
+    margin-left: 7.6em;
 }
 
 .item-container {
@@ -1837,3 +1864,4 @@ ul li:hover {
     font-size: .9em;
     font-family: 'Andada Pro', serif;
 }
+/* . . . */
