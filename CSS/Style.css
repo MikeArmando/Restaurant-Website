@@ -593,6 +593,9 @@ ul li:hover {
 }
 
 @media (max-width: 860px) {
+    .feature-background {
+        height: 120vh;
+    }
     .feature-img {
         margin-left: 9em;
     }
