@@ -1392,13 +1392,9 @@ ul li:hover {
     background-image: url(/img/seafood\ background.jpg);
     height: 50vh;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /* . . . */
