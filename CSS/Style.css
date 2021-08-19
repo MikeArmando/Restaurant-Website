@@ -2020,10 +2020,15 @@ footer {
 }
 
 i {
-    margin: 2rem;
     cursor: pointer;
     margin-top: 0rem;
     margin-bottom: 0rem;
+    margin-left: 3rem;
+    transition: all 500ms ease;
+}
+
+i:hover {
+    transform: rotate(-40deg);
 }
 
 .contact-container {
@@ -2039,6 +2044,8 @@ i {
     text-transform: uppercase;
     margin-top: 0rem;
     margin-bottom: 0rem;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 .contact:hover {
