@@ -2043,8 +2043,14 @@ i:hover {
 
 /* . . . */
 
-.img-background {
+.gallery-title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 2rem;
 }
+
+.img-background {}
 
 .img-container {
     display: flex;
@@ -2054,7 +2060,7 @@ i:hover {
 }
 
 .img-container img {
-    width: 21%;
+    width: 17%;
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
@@ -2064,11 +2070,4 @@ i:hover {
 
 .img-container img:hover {
     transform: scale(1.1);
-}
-
-.gallery-title {
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 2rem;
 }
