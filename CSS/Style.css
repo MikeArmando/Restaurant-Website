@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
 }
 
-hr {
+.menu-hr {
     border: 1px solid black;
     margin-right: 10em;
     margin-left: 10em;
@@ -2003,7 +2003,7 @@ ul li:hover {
 
 footer {
     display: flex;
-    height: 15vh;
+    height: 10vh;
 }
 
 .footer-container {
@@ -2022,6 +2022,8 @@ footer {
 i {
     margin: 2rem;
     cursor: pointer;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 .contact-container {
@@ -2035,9 +2037,22 @@ i {
     margin: 1rem;
     margin-right: 2rem;
     text-transform: uppercase;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 .contact:hover {
     text-decoration: underline;
 }
 
+.footer-hr1 {
+    border: .5px solid black;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.footer-hr2 {
+    border: .5px solid black;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
