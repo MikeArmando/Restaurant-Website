@@ -2006,23 +2006,22 @@ footer {
     height: 15vh;
 }
 
-.icon-container {
+.footer-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.footer-ul {
+.icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 2rem;
 }
 
-.footer-ul li {
-    margin: 1rem;
+i {
+    margin: 2rem;
     cursor: pointer;
-    width: 20%;
-    height: 20%;
 }
 
 .contact-container {
