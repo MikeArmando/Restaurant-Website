@@ -1998,3 +1998,42 @@ ul li:hover {
 }
 
 /* . . . */
+
+/* Footer */
+
+footer {
+    display: flex;
+    height: 15vh;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-ul li {
+    margin: 1rem;
+    cursor: pointer;
+    width: 20%;
+    height: 20%;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    cursor: pointer;
+    margin: 1rem;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
