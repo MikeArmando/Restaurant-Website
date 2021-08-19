@@ -2050,8 +2050,6 @@ i:hover {
     font-size: 2rem;
 }
 
-.img-background {}
-
 .img-container {
     display: flex;
     flex-wrap: wrap;
