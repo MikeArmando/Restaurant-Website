@@ -198,7 +198,7 @@ ul li:hover {
 
 /* Header */
 
-.header-container {
+header {
     background-image: url(https://i.pinimg.com/originals/43/10/1e/43101e0f8ce036f57ad751712d6e7d58.jpg);
     background-position: center;
     background-size: cover;
@@ -214,6 +214,11 @@ ul li:hover {
     align-items: center;
 }
 
+.header-container {
+    display: grid;
+    grid-template:  auto auto / auto;
+}
+
 .title {
     color: white;
     font-size: 4em;
@@ -225,12 +230,14 @@ ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 18%;
-    width: 28%;
+    height: 2rem;
+    width: 40%;
     font-weight: 600;
-    margin-left: 9em;
+    margin-left: 8em;
     font-size: 1.1em;
     transition: all 500ms ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .explore-button:hover {
@@ -1976,6 +1983,44 @@ ul li:hover {
 
 /* . . . */
 
+.gallery-title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.img-container img {
+    width: 17%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.img-container img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 400px) {
+    .img-container img {
+        width: 45%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: repeat;
+        cursor: pointer;
+        transition: all 500ms ease;
+    }
+}
+
 /* Footer */
 
 footer {
@@ -2041,31 +2086,26 @@ i:hover {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 400px) {
+    .contact {
+        cursor: pointer;
+        margin: 1rem;
+        margin-right: 0rem;
+        text-transform: uppercase;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+
+    i {
+        cursor: pointer;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        margin-left: 0.6rem;
+        margin-right: 1rem;
+        transition: all 500ms ease;
+    }
+}
 /* . . . */
 
-.gallery-title {
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 2rem;
-}
-
-.img-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2rem;
-}
-
-.img-container img {
-    width: 17%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    cursor: pointer;
-    transition: all 500ms ease;
-}
-
-.img-container img:hover {
-    transform: scale(1.1);
-}
