@@ -2027,14 +2027,30 @@ header {
     transform: scale(1.1);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 400px) {    
     .img-container img {
-        width: 45%;
+        width: 60%;
         background-position: center;
         background-size: cover;
         background-repeat: repeat;
         cursor: pointer;
         transition: all 500ms ease;
+    }
+
+    .img1 {
+        border-top-left-radius: 0px 0px;
+    }
+    
+    .img5 {
+        border-top-right-radius: 0px 0px;
+    }
+    
+    .img6 {
+        border-bottom-left-radius: 0px 0px;
+    }
+    
+    .img10 {
+        border-bottom-right-radius: 0px 0px;
     }
 }
 
