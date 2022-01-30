@@ -70,6 +70,24 @@ ul li:hover {
     text-decoration: underline;
 }
 
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
 @media (max-width: 1450px) {
     .logo-img {
         width: 7%;
@@ -385,6 +403,18 @@ header {
 }
 
 @media (max-width: 1400px) {
+    .feature-img {
+        border: 2px solid black;
+        grid-column: 1/2;
+        grid-row: 2/2;
+        width: 85%;
+        margin-left: 2em;
+        margin-top: 7.5em;
+        border-radius: 5%;
+        cursor: pointer;
+        transition: all 400ms ease;
+    }
+
     .text-button {
         display: flex;
         justify-content: center;
@@ -771,9 +801,12 @@ header {
 @media (max-width: 400px) {
     .feature-background {
         background-color: rgb(255, 255, 255);
-        height: 150vh;
+        height: 135vh;
         display: flex;
         justify-content: center;
+    }
+    .feature-text-con {
+        border-radius: 3%;
     }
     .feature-img {
         width: 95%;
@@ -937,6 +970,17 @@ header {
 }
 
 @media (max-width: 1400px) {
+    .feature-img2 {
+        border: 2px solid black;
+        grid-column: 2/2;
+        grid-row: 1/1;
+        width: 85%;
+        margin-left: 3em;
+        margin-top: 9em;
+        border-radius: 5%;
+        cursor: pointer;
+        transition: all 400ms ease;
+    }
     .text-button2 {
         display: flex;
         justify-content: center;
@@ -1330,6 +1374,9 @@ header {
         height: 135vh;
         display: flex;
         justify-content: center;
+    }
+    .feature-text-con2 {
+        border-radius: 3%;
     }
     .feature-img2 {
         width: 95%;
