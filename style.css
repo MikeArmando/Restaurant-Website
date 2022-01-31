@@ -217,7 +217,7 @@ ul li:hover {
 /* Header */
 
 header {
-    background-image: url(https://i.pinimg.com/originals/43/10/1e/43101e0f8ce036f57ad751712d6e7d58.jpg);
+    background-image: url(img/43101e0f8ce036f57ad751712d6e7d58.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -1423,7 +1423,7 @@ header {
 /* section background */
 
 .section-background1 {
-    background-image: url(/img/seafood\ background.jpg);
+    background-image: url(img/seafood\ background.jpg);
     height: 50vh;
     background-repeat: no-repeat;
     background-position: top;
@@ -1613,7 +1613,7 @@ header {
 /* about */
 
 .about-background {
-    background-image: url(/img/kitech.jpg);
+    background-image: url(img/kitech.jpg);
     height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
